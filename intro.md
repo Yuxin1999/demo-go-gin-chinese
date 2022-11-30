@@ -36,7 +36,7 @@ Go中没有内置支持处理基于正则表达式或某种模式地路由，需
 
 一个典型的Web应用、API服务器或微服务的控制流程如下。
 
-![control_flow.png](%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%84%E5%BB%BA%E6%95%99%E7%A8%8B-%E7%AE%80%E4%BB%8B%206c41d615d5d443079a8f525d7413f292/control_flow.png)
+![control_flow.png](pic/control_flow.png)
 
 当接受到一个请求时，Gin首先解析路由。如果找到一个匹配的路由定义，Gin会按照路由定义的顺序调用路由处理程序和中间件。后面的章节会通过代码来展示如何完成这一过程。
 
